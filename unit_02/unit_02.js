@@ -101,21 +101,19 @@ document.querySelector('.b-12').onclick = t12;
 // Task 13.
 
 function t13() {
-    let number1 = +document.querySelector('.1-13-1').value;
-    let number2 = +document.querySelector('.1-13-2').value;
-    document.querySelector('.out-13').textContent
-     = number1 + number2;
+    let number1 = +document.querySelector('.i-13-1').value;
+    let number2 = +document.querySelector('.i-13-2').value;
+    document.querySelector('.out-13').textContent = number1 + number2;
 }
-
-document.querySelector('.out-19').textContent
-    = number1 + number2;
 
 document.querySelector('.b-13').onclick = t13;
 
 // Task 14.
+const b14 = document.querySelector('.b-14');
+const i14 = document.querySelector('.i-14');
 
 function t14() {
-    
+    i14.value = 'Go';
 }
 
 
@@ -124,6 +122,8 @@ document.querySelector('.b-14').onclick = t14;
 // Task 15.
 
 function t15() {
+    let input = document.querySelector('.i-15');
+    input.style.border = '4px solid red';
 
 }
 
@@ -132,7 +132,9 @@ document.querySelector('.b-15').onclick = t15;
 // Task 16.
 
 function t16() {
-    
+    let n1 = document.querySelector('.i-16-1').value;
+    let n2 = document.querySelector('.i-16-2').value;
+    document.querySelector('.out-16').innerHTML = n1 + n2;
 }
 document.querySelector('.b-16').onclick = t16;
 
@@ -140,6 +142,13 @@ document.querySelector('.b-16').onclick = t16;
 
 
 function t17() {
+    let input = document.querySelector('.i-17').value;
+    let resultInt = parseInt(input);
+    let resultNum = Number(input);
+
+    console.log(`Ввід: "${input}"`);
+    console.log(`Number: ${resultNum}`);
+   
     
 }
 
@@ -172,11 +181,65 @@ document.querySelector('.b-19').onclick = t19;
 // Task 20
 let count = 0;
 
-
 function t20() {
     count++;
-    let out = document.querySelector('.out-20');
-    out.textContent = count ;
+    let out20 = document.querySelector('.out-20');
+    out20.textContent = count;
 }
 
 document.querySelector('.b-20').onclick = t20;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ let input = document.querySelector('.i-17').value;
+    let resultInt = parseInt(input);
+    let resultNum = Number(input);
+
+    console.log(`Ввід: "${input}"`);
+    console.log(`parseInt: ${resultInt}`);
+    console.log(`Number: ${resultNum}`);
